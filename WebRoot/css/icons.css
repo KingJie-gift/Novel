@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'icozhzh';
+	src:url('//author.zongheng.com/static/fonts2/icozhzh.eot');
+	src:url('//author.zongheng.com/static/fonts2/icozhzh.eot') format('embedded-opentype'),
+		url('//author.zongheng.com/static/fonts2/icozhzh.ttf') format('truetype'),
+		url('//author.zongheng.com/static/fonts2/icozhzh.woff') format('woff'),
+		url('//author.zongheng.com/static/fonts2/icozhzh.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icozhzh';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mobile:before {
+	content: "\e600";
+}
+.icon-lock:before {
+	content: "\e601";
+}
